@@ -2349,8 +2349,8 @@ class Dreame extends utils.Adapter {
         name: 'Auto Dust Collecting (15-1)',
         siid: 15,
         piid: 1,
-        type: 'boolean',
-        role: 'switch',
+        type: 'number',
+        role: 'level',
       },
       {
         id: 'auto-empty-frequency',
@@ -2370,7 +2370,7 @@ class Dreame extends utils.Adapter {
         type: 'boolean',
         role: 'switch',
       },
-      { id: 'auto-lds-coverage', name: 'Auto LDS Coverage (28-3)', siid: 28, piid: 3, type: 'boolean', role: 'switch' },
+      { id: 'auto-lds-coverage', name: 'Auto LDS Coverage (28-3)', siid: 28, piid: 3, type: 'number', role: 'level' },
       {
         id: 'cleangenius-mode',
         name: 'CleanGenius Mode (28-5)',
